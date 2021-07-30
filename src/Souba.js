@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const Souba = props => {
   const [state, setState] = useState(props)
-  const [name, price] = state;
+  const {name, price} = state;
   return (
     <>
         <div>
